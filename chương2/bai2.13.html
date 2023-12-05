@@ -1,0 +1,28 @@
+<form style="text-align: center;">
+    <h2 style="text-align: center; color: red;">Book a Table</h2>
+    <fieldset id="yourname">
+        <legend style="text-align: center;">Your name</legend>
+        <input type="text" id="yourname" name="yourname"
+        required minlength="20" maxlength="100"><br>
+    </fieldset>
+    <fieldset id="sex">
+        <legend style="text-align:center;">Sex</legend>
+        <input type="radio"  value="male" name="sex">Male
+        <input type="radio" value="female" name="sex" checked>Female 
+    </fieldset>
+    <fieldset id="size">
+        <legend style="text-align:center;">Size</legend>
+        <input type="radio"  value="2-person table" name="size">2-person table
+        <input type="radio" value="4-person table" name="size" checked>4-person table
+        <input type="radio"  value="6-person table" name="size">6-person table
+    </fieldset>
+    <fieldset id="location" style="text-align:center;">
+        <legend style="text-align:center;">Location</legend>
+        <input type="radio"  value="indoors" name="location">Indoors
+        <input type="radio" value="outdoors" name="location" checked>Outdoors
+    </fieldset>
+    <input type="submit" value="Book table" style="text-align:center;">
+</form>
+<!-- <p><strong style="color:red;" Book a Table></p>
+<form></form> -->
+
