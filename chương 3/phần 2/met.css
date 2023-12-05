@@ -1,0 +1,92 @@
+body {
+    background-color: darkcyan;
+}
+form{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+label {
+        text-align: left;
+        margin-top:15px;
+        width: 40%;
+        color: white;
+        font-size: 1.5vw;
+    /* display: block; */
+    display: inline-block; /* Thay đổi thành display: inline-block */
+      }
+
+      input {
+        margin-top:15px;
+        width: 50%;
+        font-size: 1.5vw;
+        /* display: block; */
+        display: inline-block; /* Thay đổi thành display: inline-block */
+      }
+
+#submit {
+    float: left;
+    width: 100px;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: blueviolet;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 767px) {
+  form {
+    border: 1px solid white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: white;
+}
+label, input {
+    width: 100%;
+        font-size: 1.5vw;
+        display: block;
+}
+#submit {
+    width: 80px;
+}
+}
+@media (max-width: 639px) {
+    form {
+        border: 1px solid white;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        color: white;
+        display: block;
+        width: 100%;
+        font-size: 1.5vw;
+    }
+
+    input {
+        display: block;
+        width: 100%;
+    }
+
+    #submit {
+        width: 80px;
+    }
+}

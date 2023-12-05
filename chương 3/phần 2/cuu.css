@@ -1,0 +1,41 @@
+form{
+    border: 1px solid white;
+    display: flex;
+    justify-content: left;
+}
+div{
+  text-align: center;
+}
+img{
+  width: 10px;
+  height: 20px;
+}
+label {
+    text-align: left;
+display: inline-block; /* Thay đổi thành display: inline-block */
+  }
+
+  input {
+    margin-top:15px;
+    font-size: 1.5vw;
+    /* display: block; */
+    display: inline-block; /* Thay đổi thành display: inline-block */
+  }
+
+@media (max-width: 639px) {
+    img{
+        width:30%
+    }
+    div{
+        text-align: left;
+    }
+    }
+  
+  @media (min-width: 640px){
+    form {
+      border: 1px solid white;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+  }
+}

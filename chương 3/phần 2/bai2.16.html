@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mango</title>
+    <style>
+         @media ((max-width: 639px)){
+        form {
+            border: 1px solid white;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Thêm align-items để căn trái các phần tử */
+        }
+
+        div {
+            text-align: center;
+        }
+
+        img {
+            text-align: center;
+        }
+
+        label {
+            text-align: left;
+            display: block;
+        }
+
+        input {
+            margin-top: 15px;
+            font-size: 1.5vw;
+            display: block;
+        }
+
+        @media (max-width: 639px) {
+            img {
+                width: 30%;
+            }
+            div {
+                text-align: left;
+            }
+        }
+    }
+    @media (min-width: 640px){
+    form {
+      border: 1px solid white;
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+  }
+  div{
+  text-align: center;
+}
+img{
+  width: 100px;
+  height: 200px;
+}
+label {
+    text-align: left;
+display: inline-block; /* Thay đổi thành display: inline-block */
+  }
+
+  input {
+    margin-top:15px;
+    font-size: 1.5vw;
+    /* display: block; */
+    display: inline-block; /* Thay đổi thành display: inline-block */
+  }
+}
+    </style>
+</head>
+<body>
+    <div style="text-align:center;">
+        <img src="https://www.pngall.com/wp-content/uploads/2016/04/Mango-PNG-File.png">
+        <br>
+        <form>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required minlength="1">
+            <br><br>
+            <label for="dob">Date of Booking</label>
+            <input type="date" id="dob" name="date of booking">
+            <br><br>
+            <label for="nop">Number of people</label>
+            <input type="text" id="nop" name="nop" required minlength="1" maxlength="8">
+            <br><br>
+            <input type="checkbox" id="iagree" name="iagree" value="iagree" required>
+            <label for="iagree">I agree to the cancellation policy</label>
+            <br><br>
+            <input type="submit" value="Book Now" style="text-align:center;">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+html{
+    background-color:rgba(0, 0, 0, 0.05);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    padding:10px;
+}
+.mobi{
+    font-size: 1.5vw;
+    width: 80%;
+    color:gray;
+    text-align: center;
+    margin: 0 auto; 
+}
+#pa{
+    text-align: left;
+    font-size: 1vw;
+    color:gray;
+    width:100%;
+
+}
+
+.anh_logo{
+width: 100%;}
+
+.anh_logo>img{
+    width: 100%;
+    height: 200px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.feature-layout {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+    .feature-item {
+    padding: 10px 9px;
+    margin-top: 1px;
+    flex-basis: 30%;
+    
+}
+.feature-item h4 {
+            margin-bottom: 5px;
+        }
+
+.feature-item:nth-child(1) {
+    background-color: white;
+}
+
+.feature-item:nth-child(2) {
+    background-color: white;
+}
+
+.feature-item:nth-child(3) {
+    background-color: white;
+}
+
+@media screen and (max-width:769px){
+    
+    .mobi{
+        font-size: 2vw;
+    width: 70%;
+    color:gray;
+    text-align: center;
+    margin: 0 auto; 
+}
+    .feature-layout {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#pa{
+    text-align: left;
+    font-size: 3vw;
+    color:gray;
+}
+
+.anh_logo{
+width: 100%;}
+
+.anh_logo>img{
+    width: 90%;
+    height: 300px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+}
+

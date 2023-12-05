@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* color:red;--nếu * hết vậy thì màu full đỏ- */
+}
+/* .box .title{
+    color:red;
+} */
+/* h2{
+    color:red;
+}
+p{ 
+    color:green;
+} */
+/* h2.title{
+    color:red;
+} */
+.title1{
+    color:red;
+    font-style: italic;
+}
+.title2{
+    color:red;
+    text-decoration: underline;
+}
+.title3{
+    color:red;
+    text-decoration: line-through;
+}
+.title1, .title2, .title3{
+    color:red;
+}
+.box>.title{
+    color:green;
+}
+.box.title{
+    color:red;
+
+}
