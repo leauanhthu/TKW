@@ -1,0 +1,26 @@
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            grid-template-rows:  auto auto auto auto auto;
+        }
+        
+        
+        .grid-item {
+            background-color: #008cff;
+            border: 1px solid;
+            padding: 10px;
+            font-size: 20px;
+            text-align: center
+        }
+        /* .item6{
+            grid-column:2/5;
+        } */
+        /* .item3{
+            grid-row-start:1;
+            grid-row-end:4;
+        } */
+
+        .item8 {
+            grid-area:2/2/5/6;
+            }
