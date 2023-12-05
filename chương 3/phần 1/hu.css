@@ -1,0 +1,26 @@
+#anh {
+    text-align: left;
+    width: 60px;
+    height: 60px;
+  }
+
+  .h1 {
+    color: blue;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .h2 {
+      color:gray;
+      font-weight: bold;
+      font-size: 25px;
+  }
+
+  .ol {
+    color: gray;
+    line-height: 1.5;
+  }
+  .ol1 {
+    width: 20px;
+    height: auto;
+  }
+

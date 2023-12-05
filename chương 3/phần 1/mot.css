@@ -1,0 +1,77 @@
+#dt {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .stars {
+    position: relative;
+    white-space: nowrap;
+}
+.stars svg {
+    width: 20px;
+}
+
+.overlay {
+    background: #fff;
+    height: 100%;
+    overflow: hidden;
+    mix-blend-mode: color;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+svg {
+    fill: gold;
+}
+#sao
+{
+  font-size: 25px;
+  color: #000000;
+}
+#anhsao
+{
+  height: 20px;
+  width: 70px;
+}
+#xam
+{
+  font-size: 25px;
+  color:gray;
+}
+#mau
+{
+  font-size: 25px;
+  color: #000000;
+  font-weight: bold;
+}
+#th {
+  padding: 10px;
+}
+#img{
+  width: 50px; 
+  height: 60px; 
+  margin-right: 5px;
+  vertical-align: middle;
+}
+#top{
+  text-decoration: none;
+  margin-top:0px;
+}
+.xanh-khi-chat {
+  border-color: whitesmoke;
+  border-style: solid;
+  border-width: medium;
+  text-align:center;
+  border-radius: 10px;
+}
+.xanh-thanh-mat {
+  border-color: whitesmoke;
+  border-style: solid;
+  border-width: medium;
+  text-align:center;
+  border-radius:10px
+}

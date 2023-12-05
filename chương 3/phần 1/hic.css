@@ -1,0 +1,36 @@
+.img{
+    height: 50%;
+    width: 50%;
+}
+.headline{
+    font-size:150%;
+}
+
+.xanh{
+    color:rgb(46, 174, 248);
+    font-weight: bold;
+}
+.giua{
+    text-align: center;
+    font-family: Arial;
+}
+.nut{
+    border-radius: 5px;
+    width: 120w;
+    height: 30w;
+    background-color: black;
+    color: white;
+}
+.nut:hover {
+            background-color: blue;
+        }
+            @media screen and (min-width:357px)and (max-width:667px){
+                h1{
+                    font-size:1.4em;
+                }
+            }
+            @media screen and (max-width:357px){
+                h1{
+                    font-size:1.2em;
+                }
+            }
